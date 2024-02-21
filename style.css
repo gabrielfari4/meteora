@@ -13,3 +13,57 @@
 .cor-facilidades {
     color: #DAFF01;
 }
+
+.carousel-font {
+    font-size: 48px;
+}
+
+.carousel-font-text {
+    font-size: 20px;
+}
+
+.posicao {
+    top: 40%;
+}
+
+@media(max-width: 767px) {
+    .posicao {
+        top: 60%;
+    }
+}
+
+.img-size-md {
+    max-height: 382px;
+}
+
+@media(min-width: 992px) {
+    .img-size-md {
+        max-height: 340px;
+    }
+}
+
+@media(min-width: 1200px) {
+    .img-size-lg {
+        max-height: 419px;
+    }
+}
+
+@media(min-width: 1400px) {
+    .img-size-lg {
+        max-height: 493px;
+    }
+}
+
+@media(min-width: 992px) {
+    form {
+        max-width: 50%;
+    }
+}
+
+#button-addon2:hover {
+    border: 1px solid grey;
+}
+
+.ver-mais:hover {
+    border: 1px solid grey;
+}
